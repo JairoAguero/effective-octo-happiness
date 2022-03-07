@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Pacificao&display=swap"
+        rel="stylesheet">
+    <title>Firefly Cakes</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav_bar">
+            <div class="main_title">
+                Firefly Cakes
+            </div>
+            <ul class="nav_ul">
+                <li><a href="baker.html">BAKER</a></li>
+                <li><a href="#MENU">MENU</a></li>
+                <li><a href="#title">ORDER</a></li>
+                <li><a href="#us">ABOUT US</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="div_A001">
+            <h1>Welcome to <span>Firefly</span> Cakes</h1>
+            <p>Bringing light to your life</p>
+        </div>
+        <div class="div_A002">
+            <section class="menu">
+                <h2 id="MENU" class="menu_title">Menu</h2>
+                <ul class="flavors">
+                    <li class="flavor_li">
+                        <img class="image" src="chocolatevegano.jpg" alt="Pastel de chocolate vegano">
+                        <br>
+                        Vegan Chocolate Cake
+                        <ul>
+                            <li class="price">$50</li>
+                        </ul>
+                    </li>
+                    <li class="flavor_li">
+                        <img class="image" src="fresa.jpg" alt="Pastel de fresa">
+                        <br>
+                        Strawberry Cake
+                        <ul>
+                            <li class="price">$40</li>
+                        </ul>
+                    </li>
+                    <li class="flavor_li">
+                        <img class="image" src="3milk.jpg" alt="Pastel tres leches">
+                        <br>
+                        Milky Cake
+                        <ul>
+                            <li class="price">$30</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div class="div_A002">
+            <section class="extras">
+                <h2 class="extras_title">Extras</h2>
+                <ul class="addins">
+                    <li class="addins_li">
+                        <img class="image" src="chocochips.jpg" alt="chispas de chocolate">
+                        <br>
+                        ChocoChips
+                        <ul>
+                            <li class="price">$5</li>
+                        </ul>
+                    </li>
+
+                    <li class="addins_li">
+                        <img class="image" src="candle2.jpg" alt="Velas">
+                        <br>
+                        Candles
+                        <ul>
+                            <li class="price">$1</li>
+                        </ul>
+                    </li>
+
+                    <li class="addins_li">
+                        <img class="image" src="candle.jpg" alt="Velas con forma de numero">
+                        <br>
+                        Candles number shape
+                        <ul>
+                            <li class="price">$2</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div class="div_A003">
+            <article class="container">
+                <section class="center">
+                    <h1 id="title">Order</h1>
+                    <p id="description">
+                        Please order here
+                    </p>
+                </section>
+
+                <form id="survey-form">
+
+                    <div class="divs">
+                        <label for="name" id="name-label">Name</label>
+                        <input id="name" class="inputs" type="text" name="name" placeholder="Enter your Name" required>
+                    </div>
+
+                    <div class="divs">
+                        <label for="email" id="email-label">Email</label>
+                        <input id="email" class="inputs" type="email" name="email" placeholder="Enter your Email"required>
+                    </div>
+
+                    <div class="divs">
+                        <label for="tel" id="tel-label">Telephone</label>
+                        <input id="tel" class="inputs" type="number" name="tel" min="8" max="10" placeholder="Enter your Telephone"required>
+                    </div>
+
+                    <div class="divs">
+                        <label for="number" id="number-label">Age</label>
+                        <input id="number" class="inputs" type="number" name="age" min="10" max="99"
+                            placeholder="Enter your Age" required>
+                    </div>
+
+                    <div class="divs">
+                        <p>What is your occupation?</p>
+                        <select id="dropdown" name="occup" class="inputs" required>
+                            <option disabled selected value>Select your occupation</option>
+                            <option value="student">Student</option>
+                            <option value="police_officer">Police Officer</option>
+                            <option value="doctor">Doctor</option>
+                            <option value="professor">Professor</option>
+                            <option value="fireman">Fireman</option>
+                            <option value="engineer">Engineer</option>
+                            <option value="architect">Architect</option>
+                            <option value="fireman">Fireman</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="divs">
+                        <p>Cake Flavor</p>
+                        <br>
+                        <label><input class="input-checkbox" type="checkbox" name="favlor" value="chocolate">Vegan Chocolate</label><br>
+                        <label><input class="input-checkbox" type="checkbox" name="favlor" value="strawberry">Strawberry</label><br>
+                        <label><input class="input-checkbox" type="checkbox" name="favlor" value="Milky">Milky</label><br>
+                    </div>
+                    <div class="divs">
+                        <p>Select add ons do you want on your cake</p>
+                        <br>
+                        <label><input class="input-checkbox" type="checkbox" value="chocochips" name="chocochips">Choco
+                            Chips</label><br>
+                        <label><input class="input-checkbox" type="checkbox" value="candles"
+                                name="candles">Candles</label><br>
+                        <label><input class="input-checkbox" type="checkbox" value="candles_n_shape"
+                                name="candles_number_shape">Candles Number Shape</label><br>
+                    </div>
+                    <div class="divs">
+                        <p class="f-size">Please write your request in detail below</p>
+                        <br>
+                        <textarea class="input-textarea" name="comment"
+                            placeholder="Enter your order here..."></textarea>
+                    </div>
+                    <div class="div">
+                        <button type="submit" id="submit" class="submit">
+                            Submit
+                        </button>
+                    </div>
+                </form>
+            </article>
+        </div>
+
+        <div class="div_A004">
+            <p id="us">742 Evergreen Terrace, +69 11 22 33 44 55, open 24/7</p>
+        </div>
+
+    </main>
+</body>
+
+</html>
